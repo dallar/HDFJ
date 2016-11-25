@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="HDFJ_III_TextMining"
+  id="myeclipse.1479997206859"
+  context-root="/helloWorld"
+  j2ee-spec="5.0"
+  archive="HDFJ_III_TextMining.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
