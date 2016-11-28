@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
@@ -13,5 +14,22 @@
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/hibernate-core-4.1.12.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/libs/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/libs/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/libs/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/c3p0-0.9.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/libs/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/antlr-2.7.7.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
