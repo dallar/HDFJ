@@ -31,5 +31,12 @@
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/javassist-3.18.1-GA.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/solr-solrj-5.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/noggit-0.6.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

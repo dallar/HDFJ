@@ -6,10 +6,10 @@
 	default-lazy-init="true">
 
 	<!-- 自动扫描与装配bean -->
-	<context:component-scan base-package="com.ywx"></context:component-scan>
+	<context:component-scan base-package="web.solr"></context:component-scan>
 	
 	<!-- 配置自动扫描的包 -->
-	<context:component-scan base-package="keyWords.web"
+	<context:component-scan base-package="keyWords.web web.solr"
 		use-default-filters="false">
 		<context:exclude-filter type="annotation"
 			expression="org.springframework.stereotype.Controller" />
@@ -18,8 +18,8 @@
 	</context:component-scan>
 
 	<!-- 配置数据源 -->
-	<context:property-placeholder location="classpath:db.properties" />
-
+	<context:property-placeholder location="classpath:db.properties" ignore-unresolvable="true" />
+	<context:property-placeholder location="classpath:solr5_4_0.properties" ignore-unresolvable="true" />
 	<!-- 配置DataSource -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property name="user" value="${jdbc.user}"></property>
@@ -27,7 +27,7 @@
 		<property name="driverClass" value="${jdbc.driverClass}"></property>
 		<property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
 	</bean>
-
+	
 	<!-- 配置SessionFactory -->
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
@@ -60,7 +60,11 @@
 		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
 		<property name="sessionFactory" ref="sessionFactory"></property>
 	</bean>
-
+	<!-- 配饰Solr properties -->
+	<bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="fileEncoding" value="UTF-8" />
+        <property name="location" value="classpath:solr5_4_0.properties" />
+    </bean>  
 	<!-- SpringContext Holder -->
 <!-- 	<bean id="springContextHolder" class="com.ywx.core.utils.SpringContextHolder" -->
 <!-- 		lazy-init="false" /> -->

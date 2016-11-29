@@ -1,28 +1,29 @@
 package test.SpringMVC;
 
-import java.util.List;
+import java.io.IOException;
 
 import javax.annotation.Resource;
 
-import keyWords.web.dao.IBaseDaoImpl;
-import keyWords.web.entity.JqSegBt;
+
 import keyWords.web.service.IKeyWordsService;
 
+import org.apache.solr.client.solrj.SolrServerException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+
+import web.solr.service.SolrService;
 
 @Controller
 @RequestMapping("/")
 public class mvcController {
-
-	
-	//@Resource(name="keyWordsService")
+	@Autowired
+	SolrService solrService;
+	@Resource(name="keyWordsService")
 	IKeyWordsService keyWordsService;
 	
     @RequestMapping("/index")
-    public String hello(){        
+    public String index(){        
         return "head";
     }
     @RequestMapping("/findSimilar")
@@ -42,10 +43,11 @@ public class mvcController {
         return "keyWordAnalysis";
     }
     @RequestMapping("listKeyWords")
-    public String listKeyWords(){
-    	List<JqSegBt> ls = keyWordsService.getObject();
-    	System.out.println("hello===============");
-    	System.out.println(ls.get(1).getId());
+    public String listKeyWords() throws SolrServerException, IOException{
+//    	List<JqSegBt> ls = keyWordsService.getObject();
+//    	System.out.println("hello===============");
+//    	System.out.println(ls.get(1).getId());
+    	System.out.println(solrService.getDocById("23697560"));
     	return "head";
     }
 }
