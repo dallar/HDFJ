@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*" pageEncoding="GBK"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -31,32 +31,32 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<div class="navbar">
 						<div class="navbar-inner">
 							<div class="container-fluid">
-							 	<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a href="#" class="brand">è­¦æƒ…æ–‡æœ¬åˆ†ææŒ–æ˜ç³»ç»Ÿ</a>
+							 	<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a href="#" class="brand">¾¯ÇéÎÄ±¾·ÖÎöÍÚ¾òÏµÍ³</a>
 							<div class="nav-collapse collapse navbar-responsive-collapse">
 								<ul class="nav">
 									<li class="active">
-										<a href="index.jsp">ä¸»é¡µ</a>
+										<a href="index.jsp">Ö÷Ò³</a>
 									</li>
 									<li>
-										<a href="retrieval">æ¡ˆä»¶æ£€ç´¢</a>
+										<a href="retrieval">°¸¼ş¼ìË÷</a>
 									</li>
 									<li>
-										<a href="findSimilar">ç›¸ä¼¼æ¡ˆä»¶æ£€ç´¢</a>
+										<a href="findSimilar">ÏàËÆ°¸¼ş¼ìË÷</a>
 									</li>
 									<li>
-										<a href="keyWord">å…³é”®è¯ç»´æŠ¤</a>
+										<a href="keyWord">¹Ø¼ü´ÊÎ¬»¤</a>
 									</li>
 									<li>
-										<a href="keyWordAnalysis">å…³é”®è¯åº”ç”¨åˆ†æ</a>
+										<a href="keyWordAnalysis">¹Ø¼ü´ÊÓ¦ÓÃ·ÖÎö</a>
 									</li>
 									<li class="dropdown">
-									 	<a data-toggle="dropdown" class="dropdown-toggle" href="#">è®¾ç½®<strong class="caret"></strong></a>
+									 	<a data-toggle="dropdown" class="dropdown-toggle" href="#">ÉèÖÃ<strong class="caret"></strong></a>
 										<ul class="dropdown-menu">
 											<li>
-												<a href="#">æ›´æ–°ç´¢å¼•</a>
+												<a href="#">¸üĞÂË÷Òı</a>
 											</li>
 											<li>
-												<a href="#">åŒæ­¥å…³é”®è¯</a>
+												<a href="#">Í¬²½¹Ø¼ü´Ê</a>
 											</li>
 										</ul>
 									</li>
@@ -70,7 +70,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div class="row-fluid">
 			<table class="table table-condensed table-striped">
 				<h3>
-					æ—¥é«˜é¢‘è¯
+					ÈÕ¸ßÆµ´Ê
 				</h3>
 				
 				<tbody>
@@ -153,23 +153,23 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</tr>
 				</tbody>
 			</table>
-<!-- 			<input type="text" value="è¯·è¾“å…¥ä½ è¦æŸ¥æ‰¾çš„ä¿¡æ¯..."  onfocus="if(this.value=='è¯·è¾“å…¥ä½ è¦æŸ¥æ‰¾çš„ä¿¡æ¯...'){this.value=''}" onblur="if(this.value==''){this.value='è¯·è¾“å…¥ä½ è¦æŸ¥æ‰¾çš„ä¿¡æ¯...'}"/> -->
+<!-- 			<input type="text" value="ÇëÊäÈëÄãÒª²éÕÒµÄĞÅÏ¢..."  onfocus="if(this.value=='ÇëÊäÈëÄãÒª²éÕÒµÄĞÅÏ¢...'){this.value=''}" onblur="if(this.value==''){this.value='ÇëÊäÈëÄãÒª²éÕÒµÄĞÅÏ¢...'}"/> -->
 			<div class="pagination pagination-right pagination-small">
 				<ul contenteditable="true">
-					<li><a href="#">ä¸Šä¸€é¡µ</a></li>
+					<li><a href="#">ÉÏÒ»Ò³</a></li>
 					<li><a href="#">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
 					<li><a href="#">4</a></li>
 					<li><a href="#">5</a></li>
-					<li><a href="#">ä¸‹ä¸€é¡µ</a></li>
+					<li><a href="#">ÏÂÒ»Ò³</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="row-fluid">
 			<table class="table table-condensed table-striped">
 				<h3>
-					å‘¨é«˜é¢‘è¯
+					ÖÜ¸ßÆµ´Ê
 				</h3>
 				
 				<tbody>
@@ -254,20 +254,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</table>
 			<div class="pagination pagination-right pagination-small">
 				<ul contenteditable="true">
-					<li><a href="#">ä¸Šä¸€é¡µ</a></li>
+					<li><a href="#">ÉÏÒ»Ò³</a></li>
 					<li><a href="#">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
 					<li><a href="#">4</a></li>
 					<li><a href="#">5</a></li>
-					<li><a href="#">ä¸‹ä¸€é¡µ</a></li>
+					<li><a href="#">ÏÂÒ»Ò³</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="row-fluid">
 			<table class="table table-condensed table-striped">
 				<h3>
-					æ—¬é«˜é¢‘è¯
+					Ñ®¸ßÆµ´Ê
 				</h3>
 				
 				<tbody>
@@ -352,20 +352,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</table>
 			<div class="pagination pagination-right pagination-small">
 				<ul contenteditable="true">
-					<li><a href="#">ä¸Šä¸€é¡µ</a></li>
+					<li><a href="#">ÉÏÒ»Ò³</a></li>
 					<li><a href="#">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
 					<li><a href="#">4</a></li>
 					<li><a href="#">5</a></li>
-					<li><a href="#">ä¸‹ä¸€é¡µ</a></li>
+					<li><a href="#">ÏÂÒ»Ò³</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="row-fluid">
 			<table class="table table-condensed table-striped">
 				<h3>
-					æœˆé«˜é¢‘è¯
+					ÔÂ¸ßÆµ´Ê
 				</h3>
 				
 				<tbody>
@@ -450,13 +450,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</table>
 			<div class="pagination pagination-right pagination-small">
 				<ul contenteditable="true">
-					<li><a href="#">ä¸Šä¸€é¡µ</a></li>
+					<li><a href="#">ÉÏÒ»Ò³</a></li>
 					<li><a href="#">1</a></li>
 					<li><a href="#">2</a></li>
 					<li><a href="#">3</a></li>
 					<li><a href="#">4</a></li>
 					<li><a href="#">5</a></li>
-					<li><a href="#">ä¸‹ä¸€é¡µ</a></li>
+					<li><a href="#">ÏÂÒ»Ò³</a></li>
 				</ul>
 			</div>
 		</div>

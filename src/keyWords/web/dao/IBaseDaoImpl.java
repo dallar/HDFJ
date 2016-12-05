@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 @SuppressWarnings("unchecked")
 @Transactional
 public class IBaseDaoImpl<T> implements IBaseDao<T> {
-	//×¢ÈëseeeionFactory
+	//æ³¨å…¥seeeionFactory
 	@Resource
 	SessionFactory sessionFactory;
 	Class clazz;
@@ -23,14 +23,14 @@ public class IBaseDaoImpl<T> implements IBaseDao<T> {
 //        this.sessionFactory = sessionFactory;  
 //    }
 //    
-	//¹¹Ôì·½·¨£º»ñÈ¡TµÄÕæÊµÀàĞÍ
+	//æ„é€ æ–¹æ³•ï¼šè·å–Tçš„çœŸå®ç±»å‹
     public IBaseDaoImpl(){
 	    ParameterizedType pType=(ParameterizedType) this.getClass().getGenericSuperclass();
 	    clazz=(Class) pType.getActualTypeArguments()[0];
 	    System.out.print(clazz.getSimpleName());
 	    
 	    }
-    //²éÑ¯ËùÓĞ¶ÔÏó
+    //æŸ¥è¯¢æ‰€æœ‰å¯¹è±¡
     public List<T> getObject(){
     	String hql="from "+clazz.getSimpleName();
     	Query query=sessionFactory.getCurrentSession().createQuery(hql);

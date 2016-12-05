@@ -3,7 +3,7 @@
   type="WEB"
   name="HDFJ_III_TextMining"
   id="myeclipse.1479997206859"
-  context-root="/helloWorld"
+  context-root="/HDFJ"
   j2ee-spec="5.0"
   archive="HDFJ_III_TextMining.war">
   <attributes>

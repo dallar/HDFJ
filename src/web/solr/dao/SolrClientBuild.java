@@ -3,12 +3,11 @@ package web.solr.dao;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Repository;
 
 /*
- * 从配置文件中读取solr的url
- * 得到SolrClient
+ * 浠庨厤缃枃浠朵腑璇诲彇solr鐨剈rl
+ * 寰楀埌SolrClient
  * */
 @Repository
 //@PropertySource(value="classpath:solr5_4_0.properties") 
@@ -18,7 +17,7 @@ public class SolrClientBuild {
 	
 	
 	public SolrClient getSolrClient(){
-		System.out.println("serverUrl="+serverUrl);
+//		System.out.println("serverUrl="+serverUrl);
 		SolrClient solrClient = new HttpSolrClient(serverUrl);
 		return solrClient;
 	}

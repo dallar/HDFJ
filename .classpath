@@ -38,5 +38,10 @@
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/httpcore-4.4.1.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/httpmime-4.4.1.jar"/>
 	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/solrj/noggit-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/json/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/json/jackson-core-asl-1.8.8.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/MyEclipse 10/HDFJ_III_TextMining/WebRoot/WEB-INF/lib/json/jackson-mapper-asl-1.8.8.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
